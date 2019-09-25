@@ -11,8 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
-.jumbotron {
+.jumbotron-fluid {
   height: 55vh;
   border-radius: 12px;
   background-color:#8b33ff;
@@ -20,14 +19,27 @@ code {
 .card {
   background-color:#ffffff;
   width: 30vw;
-  height: 70vh;
   margin-top: -40vh;
   border-radius: 10px;
   border-color: #eeeeee;
 }
+.btn {
+  background-color: #8b33ff;
+  color: #ffffff;
+  border-radius: 20px;
+}
+.btn :hover, .btn:focus, .btn:active {
+  color: #ffffff;
+  background-color: #8b33ff;
+}
+.well {
+  background-color: #f7f7f7;
+  height: 50px;
+  border-radius: 8px;
+  border: 1px solid #c0c0c0;
+}
 @media screen  and (max-width: 980px) {
   .card {
   width: 95vw;
-  height: 80vh;
 }
 }
